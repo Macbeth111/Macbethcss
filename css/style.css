@@ -1,0 +1,31 @@
+html {
+    font-size: 64px;
+}
+
+h1,h2,h3,h4 {
+    color: rgb(127, 24, 127);
+    font-size: 32px;
+    padding: 0.5em;
+}
+
+main {
+    width: 50vw;
+    font-size: 2rem;
+    background-color: skyblue;
+}
+
+body {
+font-size: 22px;
+font-family: 'Courier New', Courier, monospace;
+line-height: 1.5;
+background-color: papayawhip;
+color: rgb(97,59,25);
+}
+
+p {
+    color: #3d1717;
+    width: 70ch;
+}
+h1,h2,h3,h4 {border: 2px dashed #3d1717;
+    width: 70%;
+}
