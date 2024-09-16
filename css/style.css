@@ -1,31 +1,39 @@
-html {
-    font-size: 64px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1,h2,h3,h4 {
+.container {
+    border: 10px double darksalmon;
     color: rgb(127, 24, 127);
     font-size: 32px;
-    padding: 0.5em;
+    padding: 1.5em;
+    margin: 3rem auto;
+    outline: 5px solid palevioletred;
 }
 
-main {
-    width: 50vw;
-    font-size: 2rem;
-    background-color: skyblue;
-}
-
-body {
-font-size: 22px;
-font-family: 'Courier New', Courier, monospace;
-line-height: 1.5;
-background-color: papayawhip;
-color: rgb(97,59,25);
+h2,h3,h4,h5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    border: 2px darkgoldenrod;
+    font-size: 12px;
+    padding: 1.5em;
+    margin: 1.0rem;
+    outline: 3px solid palevioletred;
+    outline-offset: -10px;
 }
 
 p {
-    color: #3d1717;
-    width: 70ch;
+    line-height: 2.0;
 }
-h1,h2,h3,h4 {border: 2px dashed #3d1717;
-    width: 70%;
+
+ol {
+    line-height: 2.0;
 }
+
+body {
+    font-size:large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
