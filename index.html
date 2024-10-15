@@ -3,64 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>CSS LESSON CONTINUATION</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="container">
-        <h1>I am learning CSS!</h1>
+
+    <header>
+        <div class="login-form">
+            <input type="text" placeholder="Username" id="username" name="username">
+            <input type="password" placeholder="Password" id="password" name="password">
+            <button type="submit">Login</button>
+        </div>
+    
+        <nav>
+            <div class="dropdown">
+                <button class="link">Menu</button>
+                <div class="dropdown-content">
+                    <a href="CSSLessonOne">CSS Lesson One</a>
+                    <a href="CSSLessonTwo">CSS Lesson Two</a>
+                    <a href="CSSLessonThree">CSS Lesson Three</a>
+                    <a href="CSSLessonFour">CSS Lesson Four</a>
+                    <a href="CSSLessonsFiveandSix">CSS Lesson Five and Six</a>
+                    <a href="CSSLessonSeven">CSS Lesson Seven</a>
+                    <a href="CSSLessonEight">CSS Lesson Eight</a>
+                </div>
+            </div>
+        </nav>
     </header>
-    <hr>
-    <h2>Discussion in Lesson Two</h2>
-    <p>The second lesson discussed selectors in CSS
-        In CSS(Cascading Style Sheets), elements are the fundamental building blocks used 
-        to style and format HTML content on a webpage. 
-    </p>
-    <p>The four main groups of selectors discussed were</p>
-    <ol>
-        <li>Element selectors</li>
-        <li>Class selectors</li>
-        <li>ID selectors</li>
-        <li>Universal selectors</li>
-    </ol>
-    <p>Detailed explanations of the above selectors can be found on <abbr title="CSS Selectors"> <a href="https://www.w3schools.com/css/css_selectors.asp">CSS-S</a></abbr></p>
-    <hr>
-    <h3>Discussion in lesson three</h3>
-    <hr>
-    <p>the third lesson ws about applying colours in CSS. Some of the methods
-        discussed included:</p>
-    <ol>
-        <li>Named Colors where predefined names of colours are used</li>
-        <li>Hexadecimal Colours where hex code (#) is used to specify colours</li>
-        <li>RGB clours where colours are defined using "rgb()" function</li>
-        <li>HSL colours which involves use of the hsl() function, which stands for hue, saturation, and lightness</li>
-    </ol>
-    <p>The instructir also shared a resource called COOLORS for
-        picking or generating colour pallets. Link can be found here <abbr title="link"><a href="http://coolors.co">link</a></abbr>
-    </p>
-    <hr>
-    <h4>Discussions in lesson four</h4>
-    <hr>
-    <p>Lesson four focussed on CSS units</p>
-    <p>The main items discussed included:</p>
-    <ol>
-        <li>Absolute Length Units</li>
-        <li>Relative Length Units</li>
-    </ol>
-    <h5>Discussions in lesson five</h5>
-    <hr>
-    <p>Lesson five focussed on Box-Model</p>
-    <p>The instructor opened dev-tools and showed how to check the parameters
-        of the box around the headers. the main elements thus the content, the padding, the borders 
-        and the margins that make up the box-model were discussed.</p>
-    <p>The instructor also discussed how to use CSS-Reset to take control of the box-model settings. 
-        some of the items discussed under CSS-Reset are:<p>
+    <main>
+        <section id="CSSLessonOne">
+            <h2>Lesson One</h2>
+            <p>Here, the introduction to CSS was discussed in general</p>
+        </section>
+    
+        <section id="CSSLessonTwo">
+            <h2>Lesson Two</h2>
+            <p>The second lesson discussed selectors in CSS
+                In CSS(Cascading Style Sheets), elements are the fundamental building blocks used 
+                to style and format HTML content on a webpage. 
+            </p>
+            <p>The four main groups of selectors discussed were</p>
             <ol>
-                <li>Content-Box: which is the default and does not include padding</li>
-                <li>Border-Box: which includes the border and padding</li>
+                <li>Element selectors</li>
+                <li>Class selectors</li>
+                <li>ID selectors</li>
+                <li>Universal selectors</li>
             </ol>
-</body>
+            <p>Detailed explanations of the above selectors can be found on <abbr title="CSS Selectors"> <a href="https://www.w3schools.com/css/css_selectors.asp">CSS-S</a></abbr></p>
+        </section>
+    
+        <section id="CSSLessonThree">
+            <h2>Lesson Three</h2>
+            <p>the third lesson ws about applying colours in CSS. Some of the methods
+                discussed included:</p>
+            <ol>
+                <li>Named Colors where predefined names of colours are used</li>
+                <li>Hexadecimal Colours where hex code (#) is used to specify colours</li>
+                <li>RGB clours where colours are defined using "rgb()" function</li>
+                <li>HSL colours which involves use of the hsl() function, which stands for hue, saturation, and lightness</li>
+            </ol>
+            <p>The instructir also shared a resource called COOLORS for
+                picking or generating colour pallets. Link can be found here <abbr title="link"><a href="http://coolors.co">link</a></abbr>
+            </p>
+        </section>
+    
+        <section id="CSSLessonFour">
+            <h2>Lesson Four</h2>
+            <p>Lesson four focussed on CSS units</p>
+            <p>The main items discussed included:</p>
+            <ol>
+                <li>Absolute Length Units</li>
+                <li>Relative Length Units</li>
+            </ol>
+        </section>
+    
+        <section id="CSSLessonsFiveandSix">
+            <h2>Lessons Five and Six</h2>
+            <p>Lesson five focussed on Box-Model</p>
+            <p>The instructor opened dev-tools and showed how to check the parameters
+                of the box around the headers. the main elements thus the content, the padding, the borders 
+                and the margins that make up the box-model were discussed.</p>
+            <p>The instructor also discussed how to use CSS-Reset to take control of the box-model settings. 
+                some of the items discussed under CSS-Reset are:<p>
+                    <ol>
+                        <li>Content-Box: which is the default and does not include padding</li>
+                        <li>Border-Box: which includes the border and padding</li>
+                    </ol>
+        </section> 
+    
+        <section id="CSSLessonSeven">
+            <h2>Lesson Seven</h2>
+            <p>Lesson Seven focussed on CSS Typography</p>
+            <p>The instructor discussed text-settings and text transform. The isntructor discussed text-align and demonstrated how to use 
+                the various forms of text alignment. Text-indent was also discussed in this section.The instructor also discussed properties that impact CSS typogarphy which are not text imposed
+                such as line height, letter spacing, font weight, font family<p>
+                    <ol>
+                        <li>Content-Box: which is the default and does not include padding</li>
+                        <li>Border-Box: which includes the border and padding</li>
+                    </ol>
+        </section>
+    
+        <section id="CSSLessonEight">
+            <h2>Lesson 8</h2>
+            <p>Content for item 8 goes here...</p>
+        </section>
 
-
-</html>
+    </main>
+    
+    </body>
+    </html>
