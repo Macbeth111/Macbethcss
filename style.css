@@ -82,3 +82,24 @@ p {
     font-style: justify;
 }
 
+/* Normal Link Style */
+.normal-link {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Visited Link Style */
+.visited-link {
+    color: purple;
+}
+
+/* Hover Link Style */
+.hover-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Active Link Style */
+.active-link:active {
+    color: green;
+}
